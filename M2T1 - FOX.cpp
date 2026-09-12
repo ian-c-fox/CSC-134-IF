@@ -1,7 +1,7 @@
 // CSC 134
-// M1LAB
+// M2T1
 // Ian Fox
-// 8-27-2026
+// 9-11-2026
 
 #include <iostream>
 using namespace std;
