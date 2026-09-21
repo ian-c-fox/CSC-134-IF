@@ -4,6 +4,7 @@
 // 9-21-2026
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
@@ -15,6 +16,7 @@ double taxes = mealPrice * taxRate;
 double finalPrice = mealPrice + taxes;
 
 // print result
+cout << fixed << setprecision(2);
 cout << "Price before tax: $" << mealPrice << endl;
 cout << "Taxes owed: $" << taxes << endl;
 cout << "Final price of this meal is: $" << finalPrice << endl;
