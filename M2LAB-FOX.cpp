@@ -32,7 +32,7 @@ double profit = charge - cost;
 //output
 cout << fixed << setprecision(2);
 cout << "Volume of crate: " << volume << endl;
-cout << "Cost of building crate: " << cost << endl;
-cout << "Price to charge customer: " << charge << endl;
-cout << "Profit made from crate: " << profit << endl;
+cout << "Cost of building crate: $" << cost << endl;
+cout << "Price to charge customer: $" << charge << endl;
+cout << "Profit made from crate: $" << profit << endl;
 }
