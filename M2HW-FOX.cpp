@@ -1,7 +1,7 @@
 // CSC 134
 // M2HW - Gold
 // Ian Fox
-// Input date before submission
+// 9/29/2026
 // Each question will run in order back to back
 
 #include <iostream>
