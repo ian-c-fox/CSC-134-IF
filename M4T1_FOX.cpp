@@ -23,7 +23,7 @@ int main()
     cout << "Number Number Squared" << endl;
     cout << "---------------------------" << endl;
     while (num <= MaxNum){
-        cout << num << "            " << (num * num) << endl;
+        cout << num << "\t\t" << (num * num) << endl;
         num++;
     }
 
