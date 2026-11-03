@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    int number, answer;
+    int number;
     cout << "Choose a number from 1 to 12 for the times table: ";
     cin >> number;
 
@@ -17,11 +17,13 @@ int main() {
     }
     cout << endl;
 
-    for (int i=1; i <= 12; i++) {
+    int i = 1;
+    while (i<= 12) {
         //calc
         int answer = number * i;
         //output then loop
         cout << number << " times " << i << " is " << answer << "." << endl;
+        i++;
     }
 
     return 0;
