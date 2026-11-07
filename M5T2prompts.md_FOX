@@ -1,0 +1,62 @@
+// ai prompts
+// prompt 1
+// You are my pair-programming navigator. I am the driver. I type all code. Do not write the full program or full function bodies. Audience: first-semester C++ student, Module 5 (functions). Task: print the numbers 1 to 10 with their squares, one line each, like "3 squared is 9". Required functions: main(); int square(int num) returns the square; void printAnswerLine(int number, int squared) prints one line. Scope: plan only. 8 steps maximum. Format: numbered steps. Name each prototype. For each step, say what I should see when I compile and run. Path: one file, m5t2.cpp. Prototypes at top, main() in the middle, definitions at the bottom.
+
+// What I did : I entered the beginning prompt to get the ai ready for work
+
+// Prompt 2
+// Can you explain these requirements further: I compiled with `-Wall -Wextra` and saw zero warnings. My output has 10 lines, from `1 squared is 1` to `10 squared is 100`. My header comment names my partner, or the AI tool I used. AI partner only: I committed `prompts.md` with each prompt and one “What I did” line under it. I typed every line in `m5t2.cpp` myself, or watched my classmate type it as driver. I committed and pushed `m5t2.cpp` to my own repository. I submitted a screenshot of the program running and the link to my repository.
+
+// What I did: I asked for clarification on the assignment requirements.
+
+// Prompt 3
+// Can you explain the prompts.md file setup
+// What I did: asked how to create the required prompt log.
+
+// Prompt 4
+// Navigator only. Do not write code.
+I am about to type square Here are my four gate checks:
+1. Function: [square]
+2. Prototype: [int square(int num);]
+3. Place: [below main]
+4. Test: [When the program is done i will check if it has the correct squares]
+Is anything wrong or missing? Answer in 3 lines or fewer. If all four are
+correct, say "Gate checks pass."
+// What I did: I asked ai to check my plan for the square function
+
+// Prompt 5
+// Navigator only. Do not rewrite my code.
+Review m5t2.cpp against this spec: main(); int square(int num) returns the square; void printAnswerLine(int number, int squared) prints one line; output is 10 lines, 1 to 10.
+Format: a list of problems. Each item = line number + one sentence. If there are no problems, say "Matches the spec."
+[// CSC 134
+// M5T2 - More practice with functions
+// Ian Fox
+// Partner: Copilot AI
+// 11/7/2026
+#include <iostream>
+using namespace std;
+// function prototypes
+int square(int num); 
+void printAnswerLine(int num, int squared); 
+int main() {
+    // Print the numbers 1 to 10 and their squares.
+    for (int i = 1; i <= 10; i++) {
+        int squaredI = square(i);
+        printAnswerLine(i, squaredI);
+    }
+    return 0;
+}
+// Return the square of num.
+int square(int num) {
+    num = num * num;
+    return num;
+}
+// Print one line of the answer, for example: 3 squared is 9
+void printAnswerLine(int number, int squared) {
+    cout << number << " squared is " << squared << endl;
+}]
+// What I did: Asked AI to clarify if my code matches the spec. AI said the code matches so no more edits are needed
+
+// Prompt 6
+// Ask me 3 short questions about my own m5t2.cpp. One about the return value of square(). One about why printAnswerLine() is void. One about scope. Ask one question at a time. Wait for my answer. Then tell me if I am right in one sentence.
+// What I did:  I answered three questions about my program. I got the first right; my other answers showed some understanding, and the AI clarified the distinctions about returning a value and variable scope.
