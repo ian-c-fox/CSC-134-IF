@@ -72,15 +72,19 @@ void questionOne(){
     cout << "and " << monthThree << " is " << average << " inches." << endl;
     cout << endl;
 }
+
 void questionTwo(){
 
 }
+
 void questionThree(){
 
 }
+
 void questionFour(){
 
 }
+
 void questionFive(){
 
 }
