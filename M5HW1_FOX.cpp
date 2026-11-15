@@ -8,7 +8,7 @@
 
 using namespace std;
 void questionOne(); // done
-void questionTwo(); // not done
+void questionTwo(); // done
 void questionThree(); // not done
 void questionFour(); // not done
 void questionFive(); // not done
