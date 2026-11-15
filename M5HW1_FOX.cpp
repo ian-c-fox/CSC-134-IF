@@ -19,7 +19,7 @@ int main() // question 6
     while (option != 6){
         cout << "M5HW1 Menu:" << endl;
         cout << "1. Question One: Average Rainfall Calculator" << endl;
-        cout << "2. Question Two: Cube Area Calculator" << endl;
+        cout << "2. Question Two: Block Volume Calculator" << endl;
         cout << "3. Question Three: 1-10 Numeral Converter" << endl;
         cout << "4. Question Four: Geometry calculator" << endl;
         cout << "5. Question Five: Distance traveled calculator" << endl;
@@ -74,7 +74,28 @@ void questionOne(){
 }
 
 void questionTwo(){
-
+    double length, width, height, vol;
+    cout << "Enter the length of the block: ";
+    cin >> length;
+    while (length <= 0){
+            cout << "Invalid input. Please enter a number higher than 0: ";
+            cin >> length;
+        }
+    cout << "Enter the width of the block: ";
+    cin >> width;
+    while (width <= 0){
+            cout << "Invalid input. Please enter a number higher than 0: ";
+            cin >> width;
+        }
+    cout << "Enter the height of the block: ";
+    cin >> height;
+    while (height <= 0){
+            cout << "Invalid input. Please enter a number higher than 0: ";
+            cin >> height;
+        }
+    vol = length * width * height;
+    cout << "The volume of the block is " << vol << "." << endl;
+    cout << endl;
 }
 
 void questionThree(){
